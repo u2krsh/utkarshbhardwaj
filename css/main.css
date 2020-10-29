@@ -56,7 +56,7 @@ h6 {
 
 .topmenu {
   padding-top: 40px;
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
   padding-bottom: 20px
 }
@@ -87,7 +87,7 @@ h6 {
   border: 3px solid white;
   border-radius: 50%;
   width: 260px;
-  height: 310px;
+  height: 270px;
 }
 
 .info-data {
@@ -246,11 +246,15 @@ input[type="submit"]:focus {
   width: 350px;
 }
 
-.footer {
-position: sticky;
-left: 0;
-bottom: 0;
-width: 100%;
+#footer {
+  position:  relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2em;
 }
 
 .info-data .about-footer
@@ -261,4 +265,25 @@ color: black;
 .info-data .btn
 {
   color: black;
+}
+
+/* TEMPORARY */
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }

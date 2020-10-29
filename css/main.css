@@ -240,8 +240,10 @@ input[type="submit"]:focus {
   margin-top: 50px;
 }
 
-.about-me {
+.data-container .about-me {
   margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .footer {

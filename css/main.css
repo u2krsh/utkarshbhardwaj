@@ -239,3 +239,26 @@ input[type="submit"]:focus {
 .data-container {
   margin-top: 50px;
 }
+
+.about-me {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+.info-data .about-footer
+{
+color: black;
+}
+
+.info-data .btn
+{
+  color: black;
+}

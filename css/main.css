@@ -242,12 +242,12 @@ input[type="submit"]:focus {
 
 .info-data .about-me {
   margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-bottom: 10px;
+  width: 350px;
 }
 
 .footer {
-position: fixed;
+position: sticky;
 left: 0;
 bottom: 0;
 width: 100%;

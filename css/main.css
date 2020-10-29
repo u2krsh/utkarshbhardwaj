@@ -21,7 +21,7 @@ body {
   font-size: 15px;
   font-family: 'Poppins', Helvetica, sans-serif;
   line-height: 1.65em;
-  overflow: hidden;
+  overflow: auto;
   background-size: cover;
   color: #d5d5d5;
   background-position: center;

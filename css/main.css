@@ -1,50 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
+  body {
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 300;
+    background: #f7f7f7;
+    color: #1a1a1a; }
+
+    header {
+      position: fixed;
+      background-color: black;
+      font-family: "Poppins", Arial, sans-serif;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
 
 /* Background Video */
-header {
-    position: fixed;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  header video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
+
+  #myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-  
-  header .container {
-    position: fixed;
-    z-index: 2;
-  }
-  
-  header .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
   }
 
 /* Navbar */
+.navbar {
+  position: fixed;
+}
 
 .pic {
     width: 60px;
   }
 .nav-link {
   color: white;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.nav-item {
+  margin: 0px 20px;
+  font-size: 25px;
+
+}
+
+.navbar-nav {
+  margin-left: 32%;
 }

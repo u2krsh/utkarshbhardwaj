@@ -14,6 +14,24 @@ html {
 }
 
 body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -22,14 +40,10 @@ body {
   font-family: 'Poppins', Helvetica, sans-serif;
   line-height: 1.65em;
   overflow: auto;
-  background-size: cover;
-  color: #d5d5d5;
-  background-position: center;
-  background-position: 50% 50%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #eee;
+  color: white;
   font-family: 'Poppins', Helvetica, sans-serif;
   font-weight: 600;
 }
@@ -106,7 +120,7 @@ h6 {
 .info-data h2 {
   font-size: 36px;
   font-weight: 600;
-  color: black;
+  color: white;
   margin: 5px 0 7px;
   line-height: 1.2em;
 }
@@ -114,7 +128,7 @@ h6 {
 .info-data h4 {
   font-size: 18px;
   font-weight: 300;
-  color: black;
+  color: white;
   margin: 5px 0;
   line-height: 1.2em;
 }
@@ -134,7 +148,7 @@ h6 {
 }
 
 .social-links ul li a {
-  color: black;
+  color: white;
   border-radius: 20px;
   font-size: 18px;
   padding: 0;
@@ -255,16 +269,21 @@ input[type="submit"]:focus {
   margin-left:auto;
   margin-right:auto;
   margin-top:2em;
+  color: white;
 }
 
 .info-data .about-footer
 {
-color: black;
+color: white;
 }
 
 .info-data .btn
 {
-  color: black;
+  color: white;
+}
+
+.btncv {
+  border-radius: 40%;
 }
 
 /* TEMPORARY */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="keywords" content="utkarsh, utkarsh bhardwaj, bahadurgarh, utkarshb, utkarsh cs1, ultra b" />
 
-<link rel="shortcut icon" href="img/32.png">
-<link rel="stylesheet" href="css/main.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- jQuery and JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" href="img/32.png">
+  <link rel="stylesheet" href="css/main.css">
 
 
 </head>
@@ -16,34 +25,61 @@
 <body>
 
   <style>
-  body {
-     background-color:powderblue;
-  }
+    body {
+      background-color: powderblue;
+    }
   </style>
 
-  <div class="topmenu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a class="active" href="blogs.html">Blogs</a>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <div class="data-container">
-      <div class="first">
-       <div class="information">
-           <div class="info-data">
-    <center> <h2> Blogs</h2>
+  <div class="data-container">
+    <div class="first">
+      <div class="information">
+        <div class="info-data">
+          <center>
+            <h2> Blogs</h2>
 
-<h1 class="glow">Coming Soon!</h1>
- </center>
- <footer id="footer">© 2020 Utkarsh Bhardwaj</footer>
-</div>
+            <h1 class="glow">Coming Soon!</h1>
+          </center>
+          <footer id="footer">© 2020 Utkarsh Bhardwaj</footer>
+        </div>
 
-   </div>
-  </div>
+      </div>
+    </div>
   </div>
 
 
 
 
 </body>
+
 </html>

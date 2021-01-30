@@ -24,6 +24,11 @@
 
 <body>
 
+  <style>
+    body {
+      background-color: powderblue;
+    }
+  </style>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">

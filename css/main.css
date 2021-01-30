@@ -277,8 +277,9 @@ input[type="submit"]:focus {
   background-color: grey;
   color: white;
   text-align: center;
-  padding: 50px 0px;
+  padding: 50px 0px 5px;
   margin-top: 100px;
+  border-top: 1px dotted black;
 }
 
 .info-data .btn
@@ -545,4 +546,24 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
   #blog-tiles {
     align-items: center;
+  }
+
+  .footer-social-media a {
+    color: white;
+    display: inline-block;
+    padding: 0px 3px;
+  }
+
+  .footer-menu {
+    padding: 0px 0px 40px 0px;
+  }
+
+  .footer-menu a {
+    color: white;
+    display: inline-block;
+  }
+
+  .footer-menu .active {
+    color: black;
+    text-decoration: underline;
   }
